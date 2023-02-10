@@ -105,6 +105,7 @@ for (let anchor of anchors) {
 
 
 // Модальные окна
+// В DOM-элементах отсуствуют (при желании можно добавить при клике)
 const popupLinks = document.querySelectorAll('.popup__link');
 const body = document.querySelector('body');
 const lockPadding = document.querySelectorAll('.lock-padding');
